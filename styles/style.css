@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    background-color: #424242;
+    flex-grow: 4;
+}
+
+.item1{
+    flex-grow: 4;
+    width: 100vw;
+}
+
+.item2{
+    flex-grow: 3;
+}
+
+.item3{
+    flex-grow: 1;
+}
+
+.item4{
+    flex-grow: 4;
+    width: 100vw;
+}
+
+header, main, aside, footer{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 24px;
+}
